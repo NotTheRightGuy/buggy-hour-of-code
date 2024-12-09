@@ -1,0 +1,50 @@
+.board {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("background.jpg");
+    border: 10px solid black;
+    display: grid;
+    grid-template-rows: repeat(20, 1fr);
+    grid-template-columns: repeat(20, 1fr);
+    height: 92vm;
+}
+
+.plane {
+    background: url("plane.jpg");
+    border-radius: 0%;
+    height: 10vh;
+    width: 10vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.bullet {
+    background: url("bullet.png");
+    border-radius: 0%;
+    height: 3vh;
+    width: 3vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.alien {
+    background: url("alien.png");
+    border-radius: 0%;
+    height: 5vh;
+    width: 5vh;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center center;
+}
+
+.alienKilled {
+    background: white;
+    opacity: 1;
+    border-radius: 0%;
+    height: 5vh;
+    width: 5vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
